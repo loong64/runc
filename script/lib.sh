@@ -61,6 +61,9 @@ function set_cross_vars() {
 		# > port.
 		GOARM=6
 		;;
+	loong64)
+		HOST=loongarch64-${PLATFORM}
+		;;
 	ppc64le)
 		HOST=powerpc64le-${PLATFORM}
 		;;

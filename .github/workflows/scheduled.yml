@@ -18,7 +18,7 @@ jobs:
   trigger-workflow:
     strategy:
       matrix:
-        branch: ["main", "release-1.3"]
+        branch: ["main"]
         wf_id: ["validate.yml", "test.yml"]
     runs-on: ubuntu-latest
     steps:
